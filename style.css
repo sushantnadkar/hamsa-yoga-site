@@ -16,10 +16,14 @@ body {
 	 color: #da6603;
 	 display: inline-block;
 }
-.thankyou_message h2 {
-  color: #da6603;
-  font-weight: 100;
-  letter-spacing: 0.15em;
+ .thankyou_message {
+ 	 width: 450px;
+  	 margin: 20px 0 10px;
+}
+ .thankyou_message h2 {
+	 color: #da6603;
+ 	 font-weight: 100;
+  	 letter-spacing: 0.15em;
 }
  .logo img {
 	 border-radius: 50%;
