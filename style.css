@@ -16,6 +16,11 @@ body {
 	 color: #da6603;
 	 display: inline-block;
 }
+.thankyou_message h2 {
+  color: #da6603;
+  font-weight: 100;
+  letter-spacing: 0.15em;
+}
  .logo img {
 	 border-radius: 50%;
 	 margin: 0 auto 2em;
