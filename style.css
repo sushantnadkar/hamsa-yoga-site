@@ -1,0 +1,144 @@
+body {
+	 background: #eee;
+	 font-family: "Helvetica Neue", "Helvetica", Arial, "Lucida Grande", sans-serif;
+}
+ p {
+	 font-size: 1em;
+	 color: #da6603;
+	 letter-spacing: 0.15em;
+	 font-weight: 100;
+}
+ h3 {
+	 font-size: 1.5em;
+	 font-weight: 100;
+	 letter-spacing: 1em;
+	 text-shadow: 0px 0px 20px #da6603;
+	 color: #da6603;
+	 display: inline-block;
+}
+ .logo img {
+	 border-radius: 50%;
+	 margin: 0 auto 2em;
+	 width: 250px;
+	 height: 250px;
+	 border-radius: 100%;
+	 -moz-animation: shadow 2s linear 2s infinite alternate;
+	 -webkit-animation: shadow 2s linear 2s infinite alternate;
+	 animation: shadow 2s linear 2s infinite alternate;
+}
+ .container {
+	 font-size: 16px;
+	 color: #eee;
+	 text-align: center;
+	 height: 100vh;
+	 max-width: 100%;
+	 margin: 0px !important;
+	 padding: 0 !important;
+}
+ .container > div {
+	 height: auto;
+	 margin: auto;
+}
+ .social a {
+	 margin: auto;
+}
+ .social a img {
+	 height: 3em;
+}
+ .social label {
+	 color: #da6603;
+	 font-weight: 100;
+	 margin: auto;
+}
+ .form-group {
+	 width: 450px;
+	 text-align: center;
+}
+ .form-group .text {
+	 color: #efefef;
+	 letter-spacing: 15px;
+	 font-size: 20px;
+}
+ .form-group label {
+	 color: #da6603;
+	 font-size: 15px;
+	 margin-top: 20px;
+	 margin-bottom: 15px;
+	 font-weight: 100;
+	 letter-spacing: 2px;
+}
+ .form-group .input-group {
+	 width: 100%;
+}
+ .form-group .input-group input {
+	 border-radius: 15px 0px 0px 15px;
+	 background: rgba(255, 255, 255, 0);
+	 border-color: #da6603;
+	 padding-left: 15px;
+}
+ .form-group .input-group input:focus {
+	 box-shadow: none !important;
+	 border-color: #da6603;
+	 background: #efefef;
+}
+ .form-group .input-group .input-group-text {
+	 border-radius: 0px;
+	 padding: 0px;
+	 border: none;
+	 background: transparent;
+}
+ .form-group .input-group .input-group-text button {
+	 border: 1px solid #da6603;
+	 border-radius: 0px 15px 15px 0px;
+	 background: #da6603;
+	 padding: 6px 20px;
+	 color: #fff;
+	 font-weight: normal;
+	 letter-spacing: 2px;
+}
+ .form-group .input-group .input-group-text button:hover {
+	 cursor: pointer;
+	 background: #d07832;
+}
+ .form-group .input-group .input-group-text button:focus {
+	 box-shadow: none !important;
+	 outline: none !important;
+}
+ ::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder, ::-ms-input-placeholder, ::placeholder {
+	 color: #d07832;
+}
+ @-webkit-keyframes shadow {
+	 0% {
+		 box-shadow: 0px 0px 2px 2px #da6603;
+	}
+	 25% {
+		 box-shadow: 0px 0px 4px 4px #da6603;
+	}
+	 50% {
+		 box-shadow: 0px 0px 6px 6px #da6603;
+	}
+	 75% {
+		 box-shadow: 0px 0px 8px 8px #da6603;
+	}
+	 100% {
+		 box-shadow: 0px 0px 10px 10px #da6603;
+	}
+}
+ @keyframes shadow {
+	 0% {
+		 box-shadow: 0px 0px 2px 2px #da6603;
+	}
+	 25% {
+		 box-shadow: 0px 0px 4px 4px #da6603;
+	}
+	 50% {
+		 box-shadow: 0px 0px 6px 6px #da6603;
+	}
+	 75% {
+		 box-shadow: 0px 0px 8px 8px #da6603;
+	}
+	 100% {
+		 box-shadow: 0px 0px 10px 10px #da6603;
+	}
+}
+ 
