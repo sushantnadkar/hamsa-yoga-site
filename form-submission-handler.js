@@ -1,4 +1,10 @@
+
 (function() {
+  // display loading spinner until POST callback is receieved
+  document.querySelector("#notify-me").onclick = function() {
+    document.querySelector("#notify-me").style.display = "none";
+    document.querySelector("#spinner").style.display = "block";
+  }
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
@@ -77,6 +83,10 @@
           var thankYouMessage = document.querySelector(".thankyou_message");
           if (thankYouMessage) {
             thankYouMessage.style.display = "block";
+            form.style.display = "none";
+          } else {
+            var errorMessage = document.querySelector(".error_message");
+            errorMessage.style.display = "block";
             form.style.display = "none";
           }
         }

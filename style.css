@@ -16,10 +16,12 @@ body {
 	 color: #da6603;
 	 display: inline-block;
 }
+ .error_message,
  .thankyou_message {
  	 width: 450px;
   	 margin: 20px 0 10px;
 }
+ .error_message h2,
  .thankyou_message h2 {
 	 color: #da6603;
  	 font-weight: 100;
@@ -52,7 +54,7 @@ body {
 	 margin: auto;
 }
  .social a img {
-	 height: 3em;
+	 height: 2.5em;
 }
  .social label {
 	 color: #da6603;
@@ -113,9 +115,6 @@ body {
 	 box-shadow: none !important;
 	 outline: none !important;
 }
- ::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder, ::-ms-input-placeholder, ::placeholder {
-	 color: #d07832;
-}
  @-webkit-keyframes shadow {
 	 0% {
 		 box-shadow: 0px 0px 2px 2px #da6603;
@@ -150,4 +149,72 @@ body {
 		 box-shadow: 0px 0px 10px 10px #da6603;
 	}
 }
- 
+
+@-webkit-keyframes rotate-forever {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  @-moz-keyframes rotate-forever {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  @keyframes rotate-forever {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  .loading-spinner {
+	-webkit-animation-duration: 0.75s;
+	-moz-animation-duration: 0.75s;
+	animation-duration: 0.75s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: rotate-forever;
+	-moz-animation-name: rotate-forever;
+	animation-name: rotate-forever;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	animation-timing-function: linear;
+	height: 18px;
+	width: 18px;
+	border: 3px solid #ffffff;
+	border-right-color: transparent;
+	border-radius: 50%;
+	display: inline-block;
+  }
